@@ -1,10 +1,7 @@
 import React from "react";
 import "modern-css-reset";
 import "../scss/base.scss";
-
-const Header = () => {
-  return <header>header</header>;
-};
+import Header from "./header";
 
 const Footer = () => {
   return <footer>footer</footer>;
