@@ -2,10 +2,7 @@ import React from "react";
 import "modern-css-reset";
 import "../scss/base.scss";
 import Header from "./header";
-
-const Footer = () => {
-  return <footer>footer</footer>;
-};
+import Footer from "./footer";
 
 const Layout = ({ children }) => {
   return (
