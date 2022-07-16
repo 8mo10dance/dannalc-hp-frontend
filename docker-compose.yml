@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  frontend:
+    image: node:latest
+    working_dir: /app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app
