@@ -1,0 +1,17 @@
+.news-item {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #666;
+
+  &__info {
+    margin-bottom: 15px;
+  }
+
+  &__published-at {
+    font-size: 0.8rem;
+  }
+
+  &__title {
+    border-bottom: 1px solid var(--color--primary);
+    margin-bottom: 15px;
+  }
+}
