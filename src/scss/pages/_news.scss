@@ -1,0 +1,17 @@
+.news {
+  position: relative;
+
+  &__title {
+    position: absolute;
+    top: -80px;
+    left: -55px;
+  }
+
+  &__list {
+    padding-top: 130px;
+  }
+
+  &__side {
+    margin: 0 -20px;
+  }
+}
