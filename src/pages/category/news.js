@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from "../components/layout";
-import Title from "../images/news/title.png";
-import Bg from "../images/common/title-bg.png";
+import Layout from "../../components/layout";
+import Title from "../../images/news/title.png";
+import Bg from "../../images/common/title-bg.png";
 
 const NewsTitle = () => {
   return (
