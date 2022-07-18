@@ -1,0 +1,18 @@
+.recently-news-list {
+  list-style: none;
+  padding-left: 0;
+
+  &__item {
+    padding: 15px 0;
+    border-bottom: 1px solid #666;
+  }
+
+  &__item-title {
+    font-size: 0.9rem;
+    padding: 5px 0;
+  }
+  
+  &__item-published-at {
+    padding: 5px 0;
+  }
+}
